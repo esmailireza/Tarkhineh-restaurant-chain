@@ -4,6 +4,8 @@
 
 @font-face {
   font-family: "Estedad-VF";
-  src: url("./assets/fonts/statics/Estedad-Light.woff2");
+  src: url("./assets/fonts/statics/Estedad-Medium.woff2");
   font-weight: 400;
+  color: #717171;
+  font-size: 20px;
 }
