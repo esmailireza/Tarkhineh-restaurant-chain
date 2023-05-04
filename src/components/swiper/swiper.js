@@ -10,11 +10,10 @@ import "./swiper.css";
 
 // import required modules
 import { Keyboard, Pagination, Navigation } from "swiper";
-
+import slideImage from "../../assets/images/Slider1.png"
 
 const SwiperComponent = ()=>{
     return(
-        <div className="mySwiper w-full h-full bg-red-500">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
@@ -26,15 +25,14 @@ const SwiperComponent = ()=>{
           }}
           navigation={true}
           modules={[Keyboard, Pagination, Navigation]}
-          className="mySwiper w-full h-full bg-red-500"
+          className="mySwiper w-full h-full"
         >
-          <SwiperSlide className="bg-red-500">Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
+          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
+          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
+          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
+          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
+          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
         </Swiper>
-        </div>
     )
 }
 
