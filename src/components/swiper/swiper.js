@@ -25,10 +25,24 @@ const SwiperComponent = ()=>{
           }}
           navigation={true}
           modules={[Keyboard, Pagination, Navigation]}
-          className="mySwiper w-full h-full"
+          className="mySwiper w-full h-full z-0 relative"
         >
-          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
-          <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
+          <SwiperSlide>
+          <div>
+            <h1 className="font-estedad z-10 absolute right-1/4 top-1/2">
+          تجربه غذای سالم و گیاهی به سبک ترخینه
+              </h1>
+              <button className="font-estedad z-10 absolute right-2/4 bottom-12 rounded-md p-2">سفارش آنلاین غذا</button>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+            <h1 className="font-estedad z-10 absolute right-1/4">
+          تجربه غذای سالم و گیاهی به سبک ترخینه
+              </h1>
+              <button className="font-estedad z-10 absolute right-2/4 bottom-12 rounded-md p-2">سفارش آنلاین غذا</button>
+            </div>
+            </SwiperSlide>
           <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
           <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
           <SwiperSlide><img src={slideImage} alt="slide-imgage"/></SwiperSlide>
