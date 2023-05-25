@@ -29,7 +29,7 @@ const SwiperComponent = ()=>{
         >
           <SwiperSlide>
           <div>
-            <h1 className="font-estedad z-10 absolute right-1/4 top-1/2">
+            <h1 className="font-estedad z-10 absolute">
           تجربه غذای سالم و گیاهی به سبک ترخینه
               </h1>
               <button className="font-estedad z-10 absolute right-2/4 bottom-12 rounded-md p-2">سفارش آنلاین غذا</button>
@@ -37,7 +37,7 @@ const SwiperComponent = ()=>{
           </SwiperSlide>
           <SwiperSlide>
             <div>
-            <h1 className="font-estedad z-10 absolute right-1/4">
+            <h1 className="font-estedad z-10 absolute">
           تجربه غذای سالم و گیاهی به سبک ترخینه
               </h1>
               <button className="font-estedad z-10 absolute right-2/4 bottom-12 rounded-md p-2">سفارش آنلاین غذا</button>
