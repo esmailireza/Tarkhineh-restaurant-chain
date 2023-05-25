@@ -1,4 +1,5 @@
 import Header from "./components/header/header";
+import MenuRestaurant from "./components/menu-restaurant/menuRestaurant";
 import SwiperComponent from "./components/swiper/swiper";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className={`App font-Estedad-VF`}>
       <Header />
       <SwiperComponent/>
+      <MenuRestaurant/>
     </div>
   );
 }

@@ -1,0 +1,6 @@
+const MenuRestaurant = ()=>{
+    return(
+        console.log("menu-restaurant")
+    )
+}
+export default MenuRestaurant;
